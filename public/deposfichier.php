@@ -3,7 +3,6 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,15 +27,7 @@
 	 -->
 
   	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+	
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
@@ -240,12 +231,12 @@
 		Example: 
 		<body class="boxed">	
 	-->
-	<body>
+	<body style="background-color: white">
 	
 	<!-- Loader -->
-	<div class="fh5co-loader"></div>
+
 	
-	<div id="fh5co-page">
+	<div id="fh5co-page" style="background-color: #007EA4">
 		<section id="fh5co-header">
 			<div class="container">
 				<nav role="navigation">
@@ -264,163 +255,40 @@
 				</nav>
 			</div>
 		</section>
-		<!-- #fh5co-header -->
-
-		<section id="fh5co-hero" class="js-fullheight" style="background-image: url(images/hero_bg.jpg);" data-next="yes">
-			<div class="fh5co-overlay"></div>
-			<div class="container">
-				<div class="fh5co-intro js-fullheight">
-					<div class="fh5co-intro-text">
-						<!-- 
-							INFO:
-							Change the class to 'fh5co-right-position' or 'fh5co-center-position' to change the layout position
-							Example:
-							<div class="fh5co-right-position">
-						-->
-						<div class="fh5co-left-position">
-							<h3 class="animate-box">Besoin d'aide pour faire tes devoirs? dépose le sujet ici et des profs pourront t'aider gratuitement ! </h3>
-							<p class="animate-box"><a href="http://127.0.0.1/schoolCenter/public/deposfichier.php" class="btn btn-outline"><i class="glyphicon glyphicon-pencil"></i> Déposer un sujet </a> <a href="sujetdispo.php" target="_blank" class="btn btn-primary"><i class="glyphicon glyphicon-search"></i> Sujets disponibles</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="fh5co-learn-more animate-box">
-				<a href="#" class="scroll-btn">
-					<span class="text">Découvrir school Center</span>
-					<span class="arrow"><i class="icon-chevron-down"></i></span>
-				</a>
-			</div>
-		</section>
-		<!-- END #fh5co-hero -->
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+	</div>
+</section>
+<section style="background-color: white">
 
 
-		<section id="fh5co-projects">
-			<div class="container">
-				<div class="row row-bottom-padded-md">
-					<div class="col-md-6 col-md-offset-3 text-center">
-						<h2 class="fh5co-lead animate-box">SchoolCenter, qu'est-ce que c'est ?</h2>
-						<p class="fh5co-sub-lead animate-box">Il s'agit d'une plateforme d'aide aux devoirs en ligne et totalement gratuite ! dépose ton devoir ici et des professeurs pourront répondre à tes questions et t'apporter des explications </p>
-					</div>
-				</div>
-				
-					
-					
-				</div>
-			</div>
-		</section>
-		<!-- END #fh5co-projects -->
+<div class="container">
+		<form method="post" name="form_connexion" role="form" action="connexion.php">
 
-		<section id="fh5co-features">
-			<div class="container">
-				<div class="row text-center row-bottom-padded-md">
-					<div class="col-md-8 col-md-offset-2">
-						<figure class="fh5co-devices animate-box"><img src="images/img_devices.png" alt="Free HTML5 Bootstrap Template" class="img-responsive"></figure>
-						<h2 class="fh5co-lead animate-box">Parfaitement compatible avec ton Smartphone</h2>
-						<p class="fh5co-sub-lead animate-box">Compatible aussi bien sur téléphone que sur ordinateur</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 col-sm-6 col-xs-12 animate-box">
-						<div class="fh5co-feature">
-							<div class="fh5co-icon">
-								<i class="icon-power"></i>
-							</div>
-							<h3>Accessible 7/7 24/24</h3>
-							<p>Vous pouvez déposer votre devoir n'importe quand, n'importe où !</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 animate-box">
-						<div class="fh5co-feature">
-							<div class="fh5co-icon">
-								<i class="icon-flag2"></i>
-							</div>
-							<h3>Facile à utiliser</h3>
-							<p>Déposer votre devoir en quelques clics</p>
-						</div>
-					</div>
-					<div class="clearfix visible-sm-block"></div>
-					<div class="col-md-4 col-sm-6 col-xs-12 animate-box">
-						<div class="fh5co-feature">
-							<div class="fh5co-icon">
-								<i class="icon-eur"></i>
-							</div>
-							<h3>Gratuit</h3>
-							<p>Ce site est totalement gratuit ! </p>
-						</div>
-					</div>
+<br/>
+<br/>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Adresse email</label>
+        <input type="email" name="inputEmail" class="form-control" id="exampleInputEmail1" placeholder="Adresse email" >
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Mot de passe</label>
+        <input type="password" name="inputPassword" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+    </div>
+    <button type="submit" name="connexion" class="btn btn-primary"><i class="icon icon-check icon-lg"></i> Valider</button>
+    <button type="button" class="btn btn-inverse"><i class="icon icon-times icon-lg"></i> Annuler</button>
+    <br/>
+    <br/>
 
-					>
-					<div class="clearfix visible-sm-block"></div>
-				</div>
-			</div>
-		</section>	
+	</form>
 
-		<!-- END #fh5co-features -->
+</div>
+		</script>
+	<br/>
 
-
-		
-		<!-- END #fh5co-features-2 -->
-		
-		<section id="fh5co-testimonials">
-			<div class="container">
-				<div class="row row-bottom-padded-sm">
-					<div class="col-md-6 col-md-offset-3 text-center">
-						<div class="fh5co-label animate-box">Témoignages</div>
-						<h2 class="fh5co-lead animate-box">Rejoignez la plus grande platerforme d'aide au devoir</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center animate-box">
-						<div class="flexslider">
-					  		<ul class="slides">
-							   <li>
-							      <blockquote>
-							      	<p>&ldquo;Grâce à vous, je suis devenu un génie ! &rdquo;</p>
-							      	<p><cite>&mdash; Steve Jobs</cite></p>
-							      </blockquote>
-							   </li>
-							   <li>
-							    	<blockquote>
-							      	<p>&ldquo;J'étais nul en math.. mais ça c'etait avant !&rdquo;</p>
-							      	<p><cite>&mdash; Frank Chimero</cite></p>
-							      </blockquote>
-							   </li>
-							   <li>
-							    	<blockquote>
-							      	<p>&ldquo;Merci pour ce service, vous aidez les jeunes à aimer l'école et surtout à ne pas baisser les bras. Bien au contraire, on y trouve de la motivation ! &rdquo;</p>
-							      	<p><cite>&mdash; Ferdinand A. Porsche</cite></p>
-							      </blockquote>
-							   </li>
-							</ul>
-						</div>
-						<div class="flexslider-controls">
-						   <ol class="flex-control-nav">
-						      <li class="animate-box"><img src="images/person4.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co"></li>
-						      <li class="animate-box"><img src="images/person2.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co"></li>
-						      <li class="animate-box"><img src="images/person3.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co"></li>
-						   </ol>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END #fh5co-testimonials -->
-
-		<section id="fh5co-subscribe">
-			<div class="container">
-		
-				<h3 class="animate-box"><label for="email">Subscribe to our newsletter</label></h3>
-				<form action="#" method="post" class="animate-box">
-					<i class="fh5co-icon icon-paper-plane"></i>
-					<input type="email" class="form-control" placeholder="Enter your email" id="email" name="email">
-					<input type="submit" value="Send" class="btn btn-primary">
-				</form>
-
-			</div>
-		</section>
-		<!-- END #fh5co-subscribe -->
-
-		<footer id="fh5co-footer" style="background-color: #FCFEFE">
+	<footer id="fh5co-footer" style="background-color: #FCFEFE">
 			<div class="container">
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-3 col-sm-6 col-xs-12 animate-box">
@@ -474,33 +342,7 @@
 				</div>
 			</div>
 		</footer>
-		<!-- END #fh5co-footer -->
-	</div>
-	<!-- END #fh5co-page -->
-	
-	<!-- For demo purposes Only ( You may delete this anytime :-) -->
-	<!-- 
-	<div id="colour-variations">
-		<a class="option-toggle"><i class="icon-gear"></i></a>
-		<h3>Preset Colors</h3>
-		<ul>
-			<li><a href="javascript: void(0);" data-theme="style"></a></li>
-			<li><a href="javascript: void(0);" data-theme="red"></a></li>
-			<li><a href="javascript: void(0);" data-theme="turquoise"></a></li>
-			<li><a href="javascript: void(0);" data-theme="blue"></a></li>
-			<li><a href="javascript: void(0);" data-theme="orange"></a></li>
-			<li><a href="javascript: void(0);" data-theme="yellow"></a></li>
-			<li><a href="javascript: void(0);" data-theme="pink"></a></li>
-			<li><a href="javascript: void(0);" data-theme="purple"></a></li>
-		</ul>
-		<a href="#" data-layout="boxed">Boxed</a>
-		<a href="#" data-layout="wide">Wide</a>
-	</div>
-	-->
-	<!-- End demo purposes only -->
-
-	
-	<!-- jQuery -->
+		<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
@@ -564,6 +406,5 @@
 	</script>
 	
 
-	</body>
+		</body>
 </html>
-
